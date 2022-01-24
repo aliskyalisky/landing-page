@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+/* HEADER AND HERO */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    
+}
+
+.logo,
+.headerlinks {
+    margin: 10px 80px;
+}
+
+.logo {
+    color: #fff
+}
+
+.headerlinks {
+    display: flex;
+    gap: 20px;
+ 
+ 
+}
+
+.headerlinks li {
+    list-style: none;
+    
+}
+
+.headerlinks li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: #fff;
+    padding: 40px 80px;
+    gap: 50px;
+
+}
+
+.heroleft {
+    max-width: 500px;
+}
+
+.heroright img {
+    height: 250px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 1px 3px 15px -2px rgba(0,0,0,0.45);
+   
+}
+
+.button {
+    text-decoration: none;
+    background-color: #3882F6;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 18px;
+    border-radius: 8px;
+}
+
+/* INFOBOX */
+
+.infotitle {
+    text-align: center;
+}
+
+.infobox {
+    padding-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.cardimg {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    width: 120px;
+}
+
+/* QUOTE BOX */
+
+.quotebox {
+    background: #E5E7EB;
+    padding: 50px 200px;
+    
+}
+
+.quotebox p {
+    margin-left: 30px;
+}
+
+
+.right {
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* CALL TO ACTION */
+
+.ctabox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    color: #fff;
+    margin: 50px 130px;
+    padding: 15px 60px;
+    border-radius: 8px;
+}
+
+.button.signupwb {
+    border: 2px solid #fff;
+}
+
+.ctabox p {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.ctabox h4 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+background: #1F2937;
+color: #fff;
+text-align: center;
+padding: 15px;
+font-size: 8px
+}
+
+
+/* FX */
+
+.button:hover {
+    background: #5a92e8;
+}
+
+li a:hover {
+        color: #5a92e8;
+    
+}
+
+.cardimg:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 3px 15px -2px rgba(0,0,0,0.45);
+}
